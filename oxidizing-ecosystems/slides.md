@@ -301,3 +301,53 @@ fn main() { // Función de Rust
 ---
 class: bg-[#faf3e1] h-full
 ---
+
+<div class="flex items-right gap-3 justify-right text-black">
+  <span class="text-4xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">¿Por qué Rust en otros ecosistemas?</span>
+  <img src="/ferris_think.webp" class="h-8 w-8" alt="Ferris think" />
+</div>
+
+<div class="mt-6 text-lg text-right justify-right text-black">
+    <p>
+    Rust no es solo un lenguaje potente por sí mismo, sino que también <span class="text-orange-600 font-bold">se ha ganado un lugar destacado al integrarse con otros ecosistemas.</span>
+    Pero, ¿qué lo hace tan atractivo para lenguajes como JavaScript y Python?
+  </p>
+</div>
+
+
+<div class="mt-10 text-md text-black">
+    <span v-click class="text-black font-extrabold text-orange-700">✨ No es solo...</span>
+    <v-clicks>
+        <div class="mt-3 flex text-black">
+            - Rendimiento
+        </div>
+        <div class="flex text-black">
+            - Seguridad
+        </div>
+        <div class="flex text-black">
+            - Concurrencia
+        </div>
+    </v-clicks>
+   <div>
+   </div>
+
+</div>
+
+<div class="mt-10 text-md text-black">
+    <span v-click class="text-black font-extrabold text-orange-700">🚀 Rust facilita!</span>
+    <v-clicks>
+        <div class="mt-3 flex text-black">
+            - Herramientas completas para crear bindings a otros lenguajes (JavaScript, Python, Ruby, Lua...)
+        </div>
+        <div class="flex text-black">
+            - WebAssembly como opción nativa para ejecutar Rust en el navegador y otros entornos
+        </div>
+        <div class="flex text-black">
+            - Adopción gradual y a la necesidad del programador
+        </div>
+    </v-clicks>
+</div>
+
+<div class="absolute right-14 bottom-50">
+    <img src="/ferris_web.png" alt="Ferris web" class="h-32 w-auto" />
+</div>
