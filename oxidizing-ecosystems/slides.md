@@ -40,6 +40,7 @@ class: bg-[#faf3e1]
 </ul>
 
 <div class="max-w-lg bg-[#27272a] text-gray-100 rounded-lg p-2 shadow-lg text-sm">
+
 ```rust
 trait Presentacion {
     fn presentarse(&self) -> String;
@@ -57,4 +58,53 @@ fn main() {
     println!("{}", Rustacean.presentarse());
 }
 ```
+
 </div>
+
+---
+class: bg-[#faf3e1] h-full
+---
+
+<div class="justify-center flex flex-col items-center text-center">
+  <h2 class="text-5xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">
+    ¿Qué es Rust?
+  </h2>
+  <p class="mt-4 text-xl text-gray-800 max-w-2xl">
+    Rust es un lenguaje de programación de sistemas diseñado para ser seguro, rápido y concurrente,
+    sin sacrificar el control sobre la memoria.
+  </p>
+</div>
+
+<v-clicks>
+  <div class="mt-6 flex items-center gap-3 justify-center text-black">
+    <img src="/ferris_secure.png" class="h-8 w-8" alt="Ferris secure" />
+    <span class="font-semibold text-lg leading-snug"><span class="text-orange-600">Memoria segura</span> sin necesidad de un Garbage Collector</span>
+  </div>
+
+  <div class="flex items-center gap-3 justify-center text-black">
+    <img src="/ferris_ok.png" class="h-8 w-8" alt="Ferris ok" />
+    <span class="font-semibold text-lg leading-snug"><span class="text-orange-600">Excelente rendimiento</span> y cero costos de abstracción</span>
+  </div>
+
+  <div class="flex items-center gap-3 justify-center text-black">
+    <img src="/ferris_love.png" class="h-8 w-8" alt="Ferris love" />
+    <span class="font-semibold text-lg leading-snug"><span class="text-orange-600">Un ecosistema robusto</span> con una <span class="text-orange-600">comunidad increíble</span></span>
+  </div>
+</v-clicks>
+
+
+<div class="mt-14 bg-[#27272a] text-gray-100 rounded-lg p-2 shadow-lg text-sm max-w-sm mx-auto">
+
+```rust
+fn main() {
+    println!("¡Hola desde Rust! 🚀");
+}
+```
+
+</div>
+
+<div class="absolute right-0 bottom-0">
+    <img src="/ferris_hi.webp" alt="Ferris greeting" class="h-32 w-auto" />
+</div>
+
+---
