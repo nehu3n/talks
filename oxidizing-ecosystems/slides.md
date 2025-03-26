@@ -146,4 +146,158 @@ class: bg-[#faf3e1] h-full
 </div>
 
 ---
+class: bg-[#faf3e1] h-full
+---
+
+<div class="flex justify-center items-center h-full text-gray-100 rounded-lg p-2 text-sm max-w-sm mx-auto">
+
+````md magic-move
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Crear un array dinámico de 10 enteros
+    int *arr = (int *)malloc(10 * sizeof(int));
+
+    if (arr == NULL) {
+        printf("No se pudo asignar memoria\n");
+        return 1;
+    }
+
+    // Inicializar el array
+    for (int i = 0; i < 10; i++) {
+        arr[i] = i * 2;
+    }
+
+    // Imprimir el array
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // free(arr); // Esto debería estar acá, ¡un error humano!
+
+    return 0;
+}
+```
+```rust
+fn main() { // Función de Rust
+    // Crear un array dinámico de 10 enteros
+    int *arr = (int *)malloc(10 * sizeof(int));
+
+    if (arr == NULL) {
+        printf("No se pudo asignar memoria\n");
+        return 1;
+    }
+
+    // Inicializar el array
+    for (int i = 0; i < 10; i++) {
+        arr[i] = i * 2;
+    }
+
+    // Imprimir el array
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // free(arr); // Esto debería estar acá, ¡un error humano!
+
+    return 0;
+}
+
+```
+```rust
+fn main() { // Función de Rust
+    // Crear un array dinámico de 10 enteros
+    let mut arr: Vec<i32> = Vec::with_capacity(10);
+
+    // Inicializar el array
+    for (int i = 0; i < 10; i++) {
+        arr[i] = i * 2;
+    }
+
+    // Imprimir el array
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // free(arr); // Esto debería estar acá, ¡un error humano!
+
+    return 0;
+}
+```
+```rust
+fn main() { // Función de Rust
+    // Crear un array dinámico de 10 enteros
+    let mut arr: Vec<i32> = Vec::with_capacity(10);
+
+    // Inicializar el array
+    for i in 0..10 {
+        arr.push(i * 2);
+    }
+
+    // Imprimir el array
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // free(arr); // Esto debería estar acá, ¡un error humano!
+
+    return 0;
+}
+```
+```rust
+fn main() { // Función de Rust
+    // Crear un array dinámico de 10 enteros
+    let mut arr: Vec<i32> = Vec::with_capacity(10);
+
+    // Inicializar el array
+    for i in 0..10 {
+        arr.push(i * 2);
+    }
+
+    // Imprimir el array
+    for num in &arr {
+        println!("{}", num);
+    }
+
+    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // free(arr); // Esto debería estar acá, ¡un error humano!
+
+    return 0;
+}
+```
+```rust
+fn main() { // Función de Rust
+    // Crear un array dinámico de 10 enteros
+    let mut arr: Vec<i32> = Vec::with_capacity(10);
+
+    // Inicializar el array
+    for i in 0..10 {
+        arr.push(i * 2);
+    }
+
+    // Imprimir el array
+    for num in &arr {
+        println!("{}", num);
+    }
+
+    // No es necesario liberar memoria explícitamente
+    // Rust maneja la memoria automáticamente cuando el array sale de alcance
+}
+```
+````
+
+</div>
+
+---
+class: bg-[#faf3e1] h-full
 ---
