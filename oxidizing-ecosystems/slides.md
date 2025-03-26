@@ -108,3 +108,42 @@ fn main() {
 </div>
 
 ---
+class: bg-[#faf3e1] h-full
+---
+
+<div class="flex flex-col items-center text-center">
+  <h2 class="text-5xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">
+    Filosofía de Rust 🦀 vs. C/C++ 🔧
+  </h2>
+  <p class="mt-4 text-xl text-gray-800 max-w-3xl">
+    Rust adopta la filosofía de <span class="text-orange-600 font-semibold">dejar que el compilador haga el trabajo</span>,
+    eliminando errores comunes de memoria y brindando mayor seguridad sin sacrificar rendimiento.
+  </p>
+</div>
+
+<div class="flex justify-center items-center gap-12 mt-8">
+
+  <div class="flex flex-col items-center text-center max-w-sm">
+      <img src="/c_cpp_logos.png" class="h-16 w-auto mt-5" alt="C/C++ Logos" />
+    <h3 class="text-2xl font-semibold mt-4 text-gray-900">C / C++</h3>
+    <ul class="list-disc mt-3 text-gray-800 text-lg text-left pl-6 leading-relaxed">
+      <li>🚨 El programador gestiona la memoria manualmente</li>
+      <li>🛠 Posibilidad de <span class="text-red-600">segfaults</span> y <span class="text-red-600">memory leaks</span></li>
+      <li>⚠️ Mayor margen de error en concurrencia</li>
+    </ul>
+  </div>
+
+  <div class="flex flex-col items-center text-center max-w-sm">
+    <img src="/rust_logo.svg" class="h-24 w-auto -mt-10" alt="Rust Logo" />
+    <h3 class="text-2xl font-semibold mt-4 text-gray-900">Rust</h3>
+    <ul class="list-disc mt-3 text-gray-800 text-lg text-left pl-6 leading-relaxed">
+      <li>🔒 El <span class="text-orange-600">compilador</span> maneja la memoria por vos</li>
+      <li>✅ Seguridad garantizada en tiempo de compilación</li>
+      <li>⚡️ Concurrencia sin <span class="text-green-600">data races</span></li>
+    </ul>
+  </div>
+
+</div>
+
+---
+---
