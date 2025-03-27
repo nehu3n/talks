@@ -4,6 +4,7 @@ info: |
   ¿Cómo Rust puede potenciar ecosistemas enteros?
 background: "#faf3e1"
 class: flex flex-col justify-center items-center text-center h-full
+transition: slide-down
 ---
 
 <div class="text-4xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">
@@ -26,6 +27,7 @@ class: flex flex-col justify-center items-center text-center h-full
 
 ---
 class: bg-[#faf3e1]
+transition: slide-right
 ---
 
 <div class="text-4xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">
@@ -63,6 +65,7 @@ fn main() {
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-up
 ---
 
 <div class="justify-center flex flex-col items-center text-center">
@@ -109,6 +112,7 @@ fn main() {
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-down
 ---
 
 <div class="flex flex-col items-center text-center">
@@ -147,6 +151,7 @@ class: bg-[#faf3e1] h-full
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-right
 ---
 
 <div class="flex justify-center items-center h-full text-gray-100 rounded-lg p-2 text-sm max-w-sm mx-auto">
@@ -300,6 +305,7 @@ fn main() { // Función de Rust
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-left
 ---
 
 <div class="flex items-right gap-3 justify-right text-black">
@@ -351,3 +357,7 @@ class: bg-[#faf3e1] h-full
 <div class="absolute right-14 bottom-50">
     <img src="/ferris_web.png" alt="Ferris web" class="h-32 w-auto" />
 </div>
+
+---
+class: bg-[#faf3e1] h-full
+---
