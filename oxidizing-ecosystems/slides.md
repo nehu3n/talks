@@ -450,3 +450,46 @@ console.log(result);
 ---
 class: bg-[#faf3e1] h-full
 ---
+
+<div class="justify-center flex items-center">
+  <img src="/kito_banner.png" alt="Kito banner" class="h-32 w-auto" />
+</div>
+
+<div class="justify-center flex items-center">
+  <p class="mt-2 text-md text-gray-800 max-w-lg text-center">
+    Kito es un framework web backend de alto rendimiento para TypeScript, escrito en Rust.
+  </p>
+</div>
+
+<div class="mt-3 text-md max-w-lg justify-center flex items-center mx-auto">
+
+```typescript
+import { server } from 'kitojs';
+
+const app = server();
+
+app.get('/', (req, res) => {
+  res.send('Hello, world!');
+});
+
+app.listen(3000);
+```
+
+</div>
+
+---
+class: bg-[#faf3e1] h-full
+transition: slide-right
+---
+
+<div class="flex justify-center items-center h-full mx-auto">
+  <img src="/kito_bench.png" alt="Kito benchmark" class="h-[400px]" />
+</div>
+
+<div class="absolute right-0 bottom-0">
+    <img src="/swalla.gif" alt="Swalla" class="h-20 w-auto" />
+</div>
+
+---
+class: bg-[#faf3e1] h-full
+---
