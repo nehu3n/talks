@@ -1,5 +1,6 @@
 ---
 title: Oxidando ecosistemas.
+favicon: /janky_crab.webp
 info: |
   ¿Cómo Rust puede potenciar ecosistemas enteros?
 background: "#faf3e1"
