@@ -361,4 +361,42 @@ transition: slide-left
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-down
+---
+
+<div class="text-4xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4 mb-12">
+    Mientras tanto en el mundo de JavaScript ✨
+</div>
+
+<div class="flex space-x-10 mb-12">
+    <img v-click src="/deno_logo.png" alt="Deno" class="h-20 w-20 object-contain"/>
+    <img v-click src="/rspack_logo.png" alt="Rspack" class="h-20 w-20 object-contain"/>
+    <img v-click src="/swc_logo.png" alt="SWC" class="h-20 w-20 object-contain"/>
+    <img v-click src="/tailwind_logo.png" alt="Tailwind CSS" class="h-20 w-20 object-contain"/>
+    <img v-click src="/oxc_logo.png" alt="Oxc" class="h-20 w-20 object-contain"/>
+</div>
+
+<div class="mt-6 text-lg text-black">
+    <p>
+        El ecosistema de <span class="text-orange-600 font-bold">JavaScript</span> está siendo cada vez más impulsado por tecnologías basadas en <span class="text-orange-600 font-bold">Rust</span>, lo que permite una mejora significativa en el rendimiento y la eficiencia de los proyectos.
+    </p>
+</div>
+
+<div class="flex space-x-10 mb-12 mt-12">
+  <div v-click>
+    <img src="/napirs_logo.png" alt="NapiRs" class="h-20 w-20 mb-1 object-contain"/>
+    <span class="text-orange-600 font-extrabold text-center justify-center ml-1 mt-3 text-lg leading-snug">Napi-RS</span>
+  </div>
+  <div v-click>
+    <img src="/wasm_logo.png" alt="WebAssembly" class="h-20 w-20 mb-1 object-contain"/>
+    <span class="text-violet-600 font-extrabold -ml-5 text-lg leading-snug">Web Assembly</span>
+  </div>
+</div>
+
+<div class="absolute -right-10 -bottom-5">
+    <img src="/carcinologo.png" alt="Carcino logo" class="h-32 w-auto" />
+</div>
+
+---
+class: bg-[#faf3e1] h-full
 ---
