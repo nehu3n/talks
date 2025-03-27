@@ -493,3 +493,16 @@ transition: slide-right
 ---
 class: bg-[#faf3e1] h-full
 ---
+
+<div class="flex flex-col justify-center items-center h-full">
+  <h2 class="text-4xl font-black text-black tracking-wide mb-5">
+    ¡Muchas gracias! 🙏
+  </h2>
+
+  <div class="inline-flex items-center space-x-4">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="h-6 w-6" />
+    <a href="https://github.com/nehu3n" target="_blank" class="text-xl text-gray-800 hover:text-orange-500">
+      <span>github.com/nehu3n</span>
+    </a>
+  </div>
+</div>
