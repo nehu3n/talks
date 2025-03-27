@@ -182,7 +182,7 @@ int main() {
     }
     printf("\n");
 
-    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // Olvidamos liberar la memoria, lo que podría provocar un memory leak
     // free(arr); // Esto debería estar acá, ¡un error humano!
 
     return 0;
@@ -209,7 +209,7 @@ fn main() { // Función de Rust
     }
     printf("\n");
 
-    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // Olvidamos liberar la memoria, lo que podría provocar un memory leak
     // free(arr); // Esto debería estar acá, ¡un error humano!
 
     return 0;
@@ -232,7 +232,7 @@ fn main() { // Función de Rust
     }
     printf("\n");
 
-    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // Olvidamos liberar la memoria, lo que podría provocar un memory leak
     // free(arr); // Esto debería estar acá, ¡un error humano!
 
     return 0;
@@ -254,7 +254,7 @@ fn main() { // Función de Rust
     }
     printf("\n");
 
-    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // Olvidamos liberar la memoria, lo que podría provocar un memory leak
     // free(arr); // Esto debería estar acá, ¡un error humano!
 
     return 0;
@@ -275,7 +275,7 @@ fn main() { // Función de Rust
         println!("{}", num);
     }
 
-    // Olvidamos liberar la memoria, lo que provoca un memory leak
+    // Olvidamos liberar la memoria, lo que podría provocar un memory leak
     // free(arr); // Esto debería estar acá, ¡un error humano!
 
     return 0;
