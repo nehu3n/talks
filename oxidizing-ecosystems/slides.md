@@ -399,4 +399,54 @@ transition: slide-down
 
 ---
 class: bg-[#faf3e1] h-full
+transition: slide-left
+---
+
+<div class="justify-center flex flex-col items-center text-center">
+  <h2 class="text-5xl font-black text-black tracking-wide decoration-orange decoration-4 underline underline-offset-4">
+      Napi RS
+  </h2>
+  <p class="mt-4 text-xl text-gray-800 max-w-xl">
+      NapiRS es una librería para crear módulos de JavaScript aprovechando las ventajas de Rust.
+  </p>
+</div>
+
+<div class="flex space-x-5 mt-5">
+  <div class="w-1/2">
+    <div class="bg-[#27272a] p-2 rounded-lg text-white">
+
+```rust
+// Fácil y rápido!
+use napi_derive::napi;
+
+#[napi]
+pub fn sum(a: u32, b: u32) -> u32 {
+    a + b
+}
+```
+    </div>
+  </div>
+
+  <div class="w-1/2">
+    <div class="bg-[#27272a] p-2 rounded-lg text-white">
+
+```typescript
+import { sum } from './index.js'
+
+console.log(sum(2, 2)); // 4
+
+// Genera tipos automaticamente!
+const result = sum(3, "hola");  // Error de TypeScript
+console.log(result);
+```
+    </div>
+  </div>
+</div>
+
+<div class="justify-center flex items-center mt-10">
+    <img src="/ferris_headpat.gif" alt="Ferris headpat" class="h-32 w-auto" />
+</div>
+
+---
+class: bg-[#faf3e1] h-full
 ---
